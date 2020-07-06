@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>nature..</title>
+  <style>
+    body{
+        margin:0%;
+        background:black;
+        background-size:100% 100%;
+ }  
+ 
+.container{
+     width:90%;
+     margin:20px auto 0px;
+      min-height:500px;
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+     overflow:hidden;
+ }
+.container .box{
+      margin:-2% auto 0;
+      position:relative;
+     width:40%;
+     height:auto;
+    box-sizing:border-box;
+    display:inline-block;
+    overflow:hidden;
+}
+.container .box .imgbox{
+   margin-bottom:50px;
+   positon:relative;
+   overflow:hidden;
+}
+.container .box .imgbox img{
+    max-width:100%;
+    transition: transform .2s;
+    margin-bottom:-10px;
+   overflow:hidden;
+}
+.container .box:hover .imgbox img{
+    transform:scale(1.2);
+    overflow:hidden;
+}
+.container .box .details{
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background:rgba(0,0,0,.5);
+    transform:scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box .details .content{
+    overflow:hidden;
+    position:absolute;
+    top: 50%;
+    transform:translate(0%,-60%);
+    text-align:center;
+    padding:15px;
+}
+.container .box:hover .details{
+  transform:scaleY(1);
+   overflow:hidden;
+}
+h2{
+    color:red;
+}
+p{
+   color:white;
+}
+h1{
+   font-weight:10px;
+   color:white;
+   font-family:Georgia;
+   font-size:25px;
+   text-align:center;
+   text-decoration:underline;
+}
+span{
+   color:red;
+   text-decoration:overline;
+ }
+  </style>
+</head>
+<body>
+<h1>... SOME CAPTURED PICTURES OF <span>NATURE </span>...</h1>
+    
+    <div class="container">
+         <div class="box">   
+               <div class="imgbox">
+       <img src="https://live.staticflickr.com/4243/35496152212_912bface0c_b.jpg"alt="waterfalls" width="500"height="250">
+            </div>
+            <div class="details">
+                     <div class="content">
+      <h2>What is the message from 3 idiots?</h2>
+       <p>Don't run behind the success: Don't run behind the success, achieve excellence first, the success will automatically come looking for you. </p>
+                     </div>
+           </div>
+    </div>
+        <div class="box">    
+              <div class="imgbox"> 
+  <img src="https://wallpapershome.com/images/pages/ico_h/659.jpg" alt="nature" width="500" height="250">   
+              </div>
+              <div class="details">
+                      <div class="content">
+      <h2>What is the message from 3 idiots?</h2>
+       <p>Don't run behind the success: Don't run behind the success, achieve excellence first, the success will automatically come looking for you. </p>
+                      </div>
+             </div>
+      </div>
+         <div class="box">
+                  <div class="imgbox">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCBiptwaI1sBRmA_Tt6bo7HOGkAEzeJyGIyQ&usqp=CAU" alt="nature" width="500" height="280">
+                  </div>
+        <div class="details">
+                   <div class="content">
+      <h2>What is the message from 3 idiots?</h2>
+       <p>Don't run behind the success: Don't run behind the success, achieve excellence first, the success will automatically come looking for you. </p>
+                   </div>
+        </div>
+   </div> 
+    <div class="box">
+             <div class="imgbox">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_ZTbP7mW8l5hRFKIjCzsUfZul1QiUwHXq7g&usqp=CAU" alt="nature" width="500" heigth="250">
+            </div> 
+            <div class="details">
+                    <div class="content">      
+<h2>What is the message from 3 idiots?</h2>
+       <p>Don't run behind the success: Don't run behind the success, achieve excellence first, the success will automatically come looking for you. </p>
+                    </div>  
+             </div>
+       </div>
+</body>
+
+</html>
